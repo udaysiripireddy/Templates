@@ -1,0 +1,37 @@
+body{
+    display: block;
+    margin: 2rem 10rem;
+    
+}
+.Resume5-Container{
+     
+    display: flex;
+    color: white;
+}
+.Resume5-Home-Section{
+    background-color: blanchedalmond;
+    padding: 10px;
+
+    text-align: center;
+}
+.Resume5-LeftSide-Container {
+    padding: 20px;
+    color: black;
+}
+
+.Resume5-Headsings{
+    padding-left: 10px;
+    color: aliceblue;
+    background-color: rgb(46, 46, 53);
+}
+.Resume5-RightSide-Container{
+    color: black;
+    padding: 20px;
+}
+.Resume5-Sections{
+
+    display: flex;
+    padding-left: 20px;
+    gap: 40px;
+    line-height:20px;
+}

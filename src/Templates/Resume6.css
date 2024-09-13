@@ -1,0 +1,137 @@
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    overflow: hidden;
+    color: #333;
+}
+
+.aside {
+    background-color: aqua;
+}
+
+.h2,
+.h3 {
+    color: #333;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background: #b01d1d;
+    border-right: 2px solid #e0e0e0;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #4CAF50;
+}
+
+.profile h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.profile p {
+    margin: 0;
+    color: #666;
+}
+
+.contact,
+.skills {
+    margin-top: 20px;
+}
+
+.contact h3,
+.skills h3 {
+    font-size: 1.2em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.skills ul,
+.projects ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.main-content section {
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h2 {
+    color: #4CAF50;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+.projects h2,
+.declaration h2 {
+    color: #4CAF50;
+}
+
+.projects ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.declaration {
+    font-style: italic;
+    color: #333;
+    border-top: 2px solid #4CAF50;
+    padding-top: 10px;
+}
+
+.p {
+    color: black;
+}
+
+/* Certifications Section */
+.certifications {
+    margin-top: 20px;
+}
+
+.certifications h2 {
+    color: #4CAF50;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+.certifications .cert-item {
+    margin-bottom: 15px;
+}
+
+.certifications .cert-item h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+.certifications .cert-item p {
+    color: #666;
+    margin: 0;
+}
