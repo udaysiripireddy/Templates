@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+}
+.head16{
+    display: flex;
+}
+.leftcontainer16{
+    width: 40%;
+    margin: 20px;
+}
+.rightcontainer16{
+    margin: 20px;
+}
+/* Print Styling */
+@media print {
+    .resume-container {
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .profile14-section {
+        background-color: transparent;
+    }
+
+    h2, h3 {
+        color: #000;
+    }
+
+    p, li, .location, .contact-info {
+        color: #000;
+    }
+}
+
+/* Resume Container */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 210mm;
+    height: 297mm;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.6;
+    overflow: hidden;
+}
